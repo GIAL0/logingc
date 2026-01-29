@@ -22,3 +22,11 @@
 	"compatibility_flags": ["nodejs_compat"]
 
 }
+
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "observability": {
+    "enabled": true,
+    "head_sampling_rate": 1
+  }
+}
