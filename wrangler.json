@@ -20,4 +20,16 @@
 		"enabled": true
 	},
 	"compatibility_flags": ["nodejs_compat"]
+
+	{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "env": {
+    "staging": {
+      "observability": {
+        "enabled": true,
+        "head_sampling_rate": 1
+      }
+    }
+  }
+}
 }
