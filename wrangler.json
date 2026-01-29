@@ -29,4 +29,16 @@
     "enabled": true,
     "head_sampling_rate": 1
   }
+
+	{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "env": {
+    "staging": {
+      "observability": {
+        "enabled": true,
+        "head_sampling_rate": 1
+      }
+    }
+  }
+}
 }
